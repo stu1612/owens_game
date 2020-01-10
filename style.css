@@ -1,168 +1,199 @@
 @charset "utf8";
-
-
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
-
 body {
-  background: limegreen;
-  margin: 0px;
+    background: limegreen;
+    margin: 0px;
 }
 
-
 h1 {
-	background:limegreen;
-	width:100%;
-	height:100%;
-	margin:50px 0;
-	padding:0;
-	display:flex;
-	flex-flow:row wrap;
-	align-content:center;
-	justify-content:center;
-	font-family:'Titan One',cursive;
-	font-size:90px;
-	font-weight:700
+    background: limegreen;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Titan One', cursive;
+    font-size: 90px;
+    font-weight: 700
 }
 
 .letter4 {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 .letter1:hover {
-  color: yellow;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: yellow;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter2:hover {
-  color: blue;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: blue;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter3:hover {
-  color: purple;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: purple;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter4:hover {
-  color: orange;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: orange;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter5:hover {
-  color: pink;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: pink;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter6:hover {
-  color: red;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: red;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter7:hover {
-  color: lightblue;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: lightblue;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter8:hover {
-  color: lightyellow;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: lightyellow;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 .letter9:hover {
-  color: blue;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  animation: shake .5s;
+    color: blue;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
+}
+
+.letter10:hover {
+    color: red;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
+}
+
+.letter11:hover {
+    color: orange;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    animation: shake .5s;
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-2deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-2deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-2deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-2deg); }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-2deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-2deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-2deg);
+    }
 }
 
 .fa {
-  color: yellow;
+    color: yellow;
 }
 
 .title-row {
-  text-align: center;
+    text-align: center;
 }
 
 .title-instructions {
-  color: white;
-  font-family:'Titan One',cursive;
-  text-shadow: 2px 2px red;
-  display: inline;
-  font-size: 30px;
+    color: white;
+    font-family: 'Titan One', cursive;
+    text-shadow: 2px 2px red;
+    display: inline;
+    font-size: 30px;
 }
 
 .instructions-row {
-  margin: 0 auto;
-  width: 400px;
-  padding: 20px 0;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px 0;
 }
 
 .instructions-number {
-  padding-right: 25px;
-  font-family:'Titan One',cursive;
-  font-size: 36px;
-  color: black;
+    padding-right: 25px;
+    font-family: 'Titan One', cursive;
+    font-size: 36px;
+    color: black;
 }
 
 .instructions-text {
-  padding: 10px;
-  font-family:'Titan One',cursive;
-  font-size: 16px;
-  color: yellow;
-  text-shadow: 1px 1px black;
-  letter-spacing: 1.5px;
+    padding: 10px;
+    font-family: 'Titan One', cursive;
+    font-size: 16px;
+    color: yellow;
+    text-shadow: 1px 1px black;
+    letter-spacing: 1.5px;
 }
 
-
 .door-row {
-  text-align: center;
+    text-align: center;
 }
 
 .door-frame {
-  cursor: pointer;
-  margin: 10px;
+    cursor: pointer;
+    margin: 10px;
 }
 
 .start-row {
-  margin: auto;
-  width: 140px;
-  height: 43px;
-  font-family:'Titan One',cursive;
-  background-color: yellow;
-  padding-top: 18px;
-  font-size: 16px;
-  text-align: center;
-  color: black;
-  margin-bottom: 21px;
-  cursor: pointer;
+    margin: auto;
+    width: 140px;
+    height: 43px;
+    font-family: 'Titan One', cursive;
+    background-color: yellow;
+    padding-top: 18px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin-bottom: 21px;
+    cursor: pointer;
 }
